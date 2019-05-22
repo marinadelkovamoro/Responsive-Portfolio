@@ -56,7 +56,7 @@ h3 {
 
 /* header */
 
-#masthead {
+#masterhead {
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -212,4 +212,30 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+
+
+@media only screen and (max-width: 640px) {
+  #nav {
+    width: 100%;
+    text-align: center;
+  }
+
+  #logo {
+    width: 100%;
+  }
+
+  .auth-image {
+    width: 100%;
+  }
+
+  .main-section {
+    width: 100%;
+  }
+
+  .work {
+    width: 100%;
+    text-align: center;
+  }
 }
